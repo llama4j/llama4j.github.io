@@ -12,14 +12,14 @@ theme:
     - scheme: default
       primary: blue
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-sunny
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      primary: black
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode      
 
   # icon:
@@ -56,6 +56,9 @@ markdown_extensions:
       permalink: true
 
 extra:
+  analytics:
+    provider: google
+    property: G-CE0K7NCD87
   social:
     - icon: simple/github
       link: https://github.com/mukel
